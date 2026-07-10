@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffeena</title>
+    <link rel="icon" href="images/Coffee Logo for Cafes and Brands.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script defer>
+        const toggle = document.querySelector('.toggle');
+        const navLinks = document.querySelector('.navLinks');
+        toggle.addEventListener('click', () => {
+            toggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Mystery+Quest&family=Roboto:wght@365&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="contaner">
+            <div class="L">
+                <img class="Logo" src="images/Coffee Logo for Cafes and Brands.jpg" alt="Our Logo">
+                <a class="LName" href="index.html">Caffeena</a>
+            </div>
+            <button class="toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="home" id="home">
+        <div class="text">
+            <h1>The best coffee in The <span>Middle East</span> </h1>
+            <p>
+                We believe that a great day starts with a great 
+                cup of coffee. That's why we source the finest 
+                beans from sustainable farms around the world, 
+                roasting them locally to bring out rich,bold, 
+                and unforgettable flavors. Whether you need 
+                amorning kickstart or a cozy afternoon blend,
+                 we've got you covered.
+            </p>
+            <div class="butt">
+                <button class="b1">Order</button>
+                <button class="b2">Creat account</button>
+            </div>
+        </div>
+        <div class="photo"><img src="images/c.png" alt=""></div>
+    </div>
+    <div class="About" id="About">
+        <img src="images/Coffee Logo for Cafes and Brands.jpg" alt="our Logo">
+        <div class="text">
+            <h2 class="t1">Who are we?</h2>
+            <h2 class="t2">No 1 in coffee drinks</h2>
+            <p class="t3">
+                We are the most renowned coffee company across Egypt
+                and Spain, with branches throughout both countries.
+                We supply Arabica and Robusta beans in all grind
+                sizes and blend ratios to meet your requirements.
+            </p>
+            <div class="pr">
+                <div class="a1">
+                    <h1>40</h1>
+                    <p>experience</p>
+                </div>
+                <div class="a2">
+                    <h1>24h</h1>
+                    <p>service</p>
+                </div>
+                <div class="a3">
+                    <h1>48h</h1>
+                    <p>Delivery</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Service" id="Service">
+        <h1>Our Services</h1>
+        <div class="pr">
+            <div class="card">
+                <div class="inner">
+                    <div class="front">
+                        <img class="iroom" src="images/PLAY ROOM.jpg" alt="Room">
+                    </div>
+                    <div class="back">
+                        <h3>Game Room</h3>
+                        <p>Playstation<br>Bing Bong<br>Billiardo<br>PC games</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="inner">
+                    <div class="front">
+                        <img class="itable" src="images/coffee table.jpg" alt="Table">
+                    </div>
+                    <div class="back">
+                        <h3>Booking Table</h3>
+                        <p> You can book your table on our website.<br>Also you can book it with a call.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="inner">
+                    <div class="front">
+                        <img class="idelivery" src="images/delivery.jpg" alt="delivery">
+                    </div>
+                    <div class="back">
+                        <h3>Delivery men</h3>
+                        <p>your Order arrive in three or four hours.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="inner">
+                    <div class="front">
+                        <img class="iseller" src="images/seller.jpg" alt="seller">
+                    </div>
+                    <div class="back">
+                        <h3>Our branches</h3>
+                        <p>You can visit us at any<br> of our branches. <br>All our branches are open <br>24 hours a day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Gallery" id="Gallery">
+        <h1>Some from our products</h1>
+        <div class="pr">
+            <div><img src="images/capochino.jpg" alt="capochino"></IMG></div>
+            <div><img src="images/lateh.jpg" alt="lateh"></div>
+            <div><img src="images/Americano.jpg" alt="Americano"></div>
+            <div><img src="images/mocha.jpg" alt="mocha"></div>
+            <div><img src="images/Neskafeh.jpg" alt="Neskafeh"></div>
+            <div><img src="images/قهوة سادة.jpg" alt="قهوة سادة"></div>
+            <div><img src="images/قهوة محوج.jpg" alt="قهوة محوج"></div>
+            <div><img src="images/waffel.jpg" alt="waffel"></div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h1>Contact us</h1>
+        <form action="post">
+            <div class="n">
+                <label for="name">Name</label>
+                <input id="name" class="name" type="text">
+            </div>
+            <div class="e">
+                <label for="email">Email</label>
+                <input id="Email" class="email" type="email">
+            </div>
+            <div class="m">
+                <label for="message">Message</label>
+                <input id="message" class="message" type="text">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2026 All right reserved</p>
+    </footer>
+</body>
+</html>
