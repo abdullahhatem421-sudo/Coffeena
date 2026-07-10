@@ -411,6 +411,7 @@ nav .contaner{
     top:30px;
 }
 .Gallery .pr{
+    max-width:1300px;
     width:80%;
     height: 80%;
     border: 2px #261501 solid;
